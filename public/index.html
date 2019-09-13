@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Swamp Gas</title>
+		<!-- <script
+			id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_belize_plus"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-resourceroots='{
+			"emtBuilds.ZEMT_Builds": "./"
+			}'>
+		</script> -->
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.ui.core.ComponentContainer({
+					name : "emtBuilds.ZEMT_Builds"
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+	
+	<body class="sapUiBody" id="content">
+	</body>
+</html>

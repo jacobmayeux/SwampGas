@@ -1,0 +1,24 @@
+{
+  "name": "swamp_gas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobmayeux/SwampGas.git"
+  },
+  "author": "J Mayeux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobmayeux/SwampGas/issues"
+  },
+  "homepage": "https://github.com/jacobmayeux/SwampGas#readme",
+  "dependencies": {
+    "cfenv": "^1.2.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemon": "^1.19.2"
+  }
+}
